@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <style data-merge-styles="true">
+        </style>
+        <style data-merge-styles="true">
+        </style>
+        <title>Home Page</title>
+        <!--  -->
+        <meta http-equiv="Content-Language" content="en-us">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <!--  -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" /> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <!-- Google Fonts -->
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" /> -->
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            /* Start Variables */
+            :root {
+                --main-color: #10cab7;
+                --secondary-color: #2c4755;
+                --section-padding: 60px;
+                --section-background: #f6f6f6;
+                --main-duration: 0.5s;
+            }
+            /* End Variables */
+            /* Start Global Rules */
+            * {
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+              }
+            html {
+                scroll-behavior: smooth;
+            }
+            body {
+                font-family: "Work Sans", sans-serif;
+                font-family: 'DroidKufi-Regular' !important;
+            }
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            /* Small */
+            @media (min-width: 768px) {
+            .container {
+                width: 750px;
+            }
+            }
+            /* Medium */
+            @media (min-width: 992px) {
+            .container {
+             width: 970px;
+            }
+            }
+            /* Large */
+            @media (min-width: 1200px) {
+            .container {
+                width: 1170px;
+            }
+            }
+            /* End Global Rules */
+            .special-heading {
+                color: #ebeced;
+                font-size: 100px;
+                text-align: center;
+                font-weight: 800;
+                letter-spacing: -3px;
+                margin: 0;
+            }
+            .special-heading + p {
+                margin: -30px 0 0;
+                font-size: 20px;
+                text-align: center;
+                color: #797979;
+            }
+            @media (max-width: 767px) {
+            .special-heading {
+                font-size: 60px;
+            }
+            .special-heading + p {
+            margin-top: -20px;
+            }
+            }
+            /* Start Components */
+            .separator-block {
+                text-align: center;
+                margin-bottom: 60px;
+            }
+            .separator-block .container {
+                color: #26803d;
+                font-size: 1.3rem;
+                border-bottom: 3px solid #eeeeee;
+                line-height: 3;
+            }
+            .separator-block .container  .separator-title {
+            }
+            .separator-block .container  .separator-title .text {
+                border-bottom: 3px solid #26803d;
+                padding-bottom: 8px;
+            }
+            /* End Components */
+            /* Start Section Hello */
+            .section_hello {
+            }
+            .section_hello img {
+                max-height: 600px;
+                width: 100%;
+            }
+            /* End Section Hello */
+/* *********************************************************************************************************** */
+            /* Start Section_01 */
+            .section_01 {
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+            .section_01 .container {
+                display: flex;
+            }
+            /* Start Carousel */
+            .section_01 .container .slider {
+                width: 678px;
+                align-self: flex-start;
+            }
+            /* .section_01 .container .carousel {
+                border-radius: 5px;
+            } */
+            .section_01 .container .carousel .carousel-inner .carousel-item a img {
+                border-radius: 5px;
+            }
+            .section_01 .container .carousel .carousel-inner .carousel-item .carousel-caption {
+                background-color: #2a2a2aa8;
+                /* My Added Code */
+                background-color: #2a2a2aa8;
+                position: absolute;
+                right: 15%;
+                bottom: 1.25rem;
+                left: 15%;
+                padding-top: .25rem;
+                padding-bottom: .25rem;
+                color: #fff;
+                text-align: center;
+                border-radius: 5px
+                /* End Added Code*/
+            }
+            .section_01 .container .carousel .carousel-inner .carousel-item .carousel-caption .SliderTitle { 
+                font-size: 18px;
+                text-align: center;
+                color: white;
+            }
+            .section_01 .container .carousel-caption {
+               
+            }
+            .section_01 .container .SliderTitle {
+               
+            }
+                /* End Carousel */
+            .section_01 .container .president-word {
+            width: calc(100% - 677px);
+            margin-right: 30px;
+            margin-right: 40px;
+            }
+            @media (max-width: 991px) {
+            .section_01 .container {
+            flex-direction: column;
+            }
+            .section_01 .container .slider {
+            max-width: 100%;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            }
+            .section_01 .container .president-word {
+            order: 1;
+            max-width: 100%;
+            width: 100%;
+            }
+            }
+            .section_01 .container .president-word .title {
+            border-bottom: 2px solid #eeeeee;
+            text-align: center;
+            }
+            .section_01 .container .president-word .title h4 {
+            text-align: center;
+            padding-top: 10px;
+            color: #26803d;
+            border-bottom: 3px solid #26803d;
+            margin-bottom: 0;
+            width: fit-content;
+            padding: 5px;
+            margin-bottom: -2px;
+            margin-right: 25%;
+            }
+            .section_01 .container .president-word .title h4 p {
+            color: #26803d;
+            }
+            .section_01 .container .president-word .info {
+            /* float: right; */
+            /* width: calc(100% - 120px); */
+            display: flex;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin: 10px 0 5px 5px;
+            }
+            @media (max-width: 991px) {
+            .section_01 .container .president-word .info {
+            flex-direction: column;
+            }
+            .section_01 .container .president-word .info img {
+            order: 1;
+            align-self: center;
+            width: 150px;
+            margin-bottom: 10px;
+            }
+            .section_01 .container .president-word .info p {
+            order: 2;
+            }
+            }
+            .section_01 .container .president-word .info img {
+            /* width: 110px; */
+            height: 130px;
+            /* float: left; */
+            border-radius: 5px;
+            /* margin-right: 5px; */
+            }
+            .section_01 .container .president-word .info p {
+            margin: 0;
+            padding: 0 10px;
+            line-height: 1.6;
+            /* float:left; */
+            }
+            .section_01 .container .president-word .info a {
+            /* color: #2e4a8a;
+            font-weight: bold; */
+            }
+            /* End Section_01 */
+            /* Start Section 02 */
+            .section_02 {
+            margin-bottom: 60px;
+            }
+            .section_02 .container {
+             display: flex;
+            }
+            .section_02 .container .strategic {
+            width: calc( 100% - 634px);
+            margin-left: 20px;
+            margin-bottom: 10px;
+            background-image: url("/Images/836/interface/Section_01_4_Strategic.png");
+            background-repeat: no-repeat;
+            }
+            @media (max-width: 991px) {
+            .section_02 .container {
+                flex-direction: column;
+            }
+            .section_02 .container .strategic {
+                width: 100%;
+            }
+            }
+            .section_02 .container .strategic .title {
+            border-bottom: 2px solid #eeeeee;
+            }
+            .section_02 .container .strategic .title h5 {
+            position: relative;
+            border-bottom: 3px solid #26803d;
+            margin-bottom: 0;
+            width: fit-content;
+            padding: 5px;
+            color: #26803d;
+            margin-bottom: -2px;
+            }
+            .section_02 .container .strategic p {
+            line-height: 1.6;
+            padding: 2px;
+            margin: 10px;
+            }
+            .section_02 .container .strategic a {
+            padding-right: 10px;
+            display: block;
+            margin-top: -15px;
+            }
+            .section_02 .container .video {
+            width: 634px;
+            text-align: left;
+            border-radius: 5px;;
+            }
+            .section_02 .container .video iframe {
+            border-radius: 5px;;
+            }
+            @media (max-width: 767px) {
+            .section_02 .container .video {
+            width:100%;
+            margin-top: 30px
+            }
+            .section_02 .container .video iframe {
+            width: 100%;
+            align-self: flex-end;
+            }
+            }
+            /* End Section 02 */
+/* *********************************************************************************************************** */
+            /* Start Section 03 */
+            /* Start Section Events */
+            .section_03 .section_events {
+            background-color: #ebebeb;
+            background-color: #fff;
+            padding-bottom: 30px;
+            }
+            .section_03 .section_events .container {
+            }
+            .section_03 .section_events .container .events-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            column-gap: 5px;;
+            }
+            .section_03 .section_events .container .events-content .event {
+            margin-bottom: 10px;
+            }
+            .section_03 .section_events .container .events-content .event:hover {
+            }
+            .section_events .container .events-content .event .images {
+            text-align: center;
+            transition: transform 2s, filter 1.5s ease-in-out;
+            transform-origin: center center;
+            }
+            .section_03 .section_events .container .events-content .event:hover .images {
+            /* Adding Transition From Old File */
+            filter: brightness(50%);
+            transform: scale(1.1);
+            }
+            .section_03 .section_events .container .events-content .event .images img {
+            border: 2px solid #854030;
+            border: 2px solid #616361;
+            border: 2px solid #9e9e9e;
+            }
+            @media(max-width: 767px) {
+            .section_03 .section_events .container .events-content .event .images img {
+            width: 100%;
+            }
+            }
+            .section_03 .section_events .container .events-content .event .text {
+            padding: 5px;
+            margin-top: 15px;
+            background-color: #854030;
+            background-color: #ba915e;
+            border-top: 2px solid #262626;
+            border-bottom: 3px solid #262626;
+            }
+            .section_03 .section_events .container .events-content .event .text p {
+            margin-bottom: 0;
+            color: #262626;
+            font-weight: bold;;
+            border-radius: 5px;
+            }
+            .section_03 .section_events .container .events-content .event .text a {
+            display: block;
+            text-align: left;
+            font-weight: bold;
+            text-decoration: none;
+            color:#26803d;
+            color: #ebebeb;
+            transition: 0.5s;
+            }
+            .section_03 .section_events .container .events-content .event .text a:hover {
+            color: #854030;
+            }
+            /* End Section Events */
+            /* End Section 03 */
+/* *********************************************************************************************************** */
+            /* Start Section 04 */
+            .section_04 {
+            margin-bottom: 60px;
+            }
+            .section_04 .container {
+            }
+            .section_04 .container .shuffle {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            background-color: #2e4b89;
+            padding: 30px;
+            }
+            .section_04 .container .shuffle .sector {
+            display: flex; 
+            flex-direction: column;
+            justify-content: space-between;  
+            background-color: #ebebeb;
+            padding: 5px;
+            border-radius: 5px;
+            text-align: center;
+            transition: 0.5s;
+            }
+            .section_04 .container .shuffle .sector p {
+            margin: auto;
+            font-weight: bold;
+            filter: grayscale(100%);
+            }
+            .section_04 .container .shuffle .sector a {
+            display: block;
+            padding: 0 5px;
+            border-radius: 5px;;
+            color:black;
+            font-weight: bold;
+            }
+            .section_04 .container .shuffle .sector a img {
+            width: 25%;
+            filter: grayscale(100%);
+            padding: 5px;
+            transition: 0.3s;
+            }
+            .section_04 .container .shuffle .sector:hover a img {
+            border: 2px solid #2e4b89;
+            border-radius: 50%;
+            color: white;
+            cursor: pointer;
+            filter: grayscale(0);
+            }
+            /* End Section 04 */
+/* *********************************************************************************************************** */
+            /* Start Section_last */
+            .section_last {
+            padding: 60px 0;
+            /* background-image: url("/Images/836/interface/Section_Last-image-06.jpg"); */
+            background-size: cover;
+            background-color: #834230;
+            }
+            .section_last .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* Code Here */
+            row-gap: 10px;
+            column-gap: 10px;
+            /* height: 350px; */
+            /* background-color: #616361; */
+            }
+            .section_last .content .box {
+            padding: 2px 5px 2px 2px;
+            width: 300px;
+            }
+            .section_last .content .box:not(:last-child) {
+            border-left: 1px solid #ddd;
+            }
+            @media(max-width: 767px) {
+            .section_last .content .box:not(:last-child) {
+            border-left: none;
+            border-bottom: 1px solid #ddd;
+            }
+            }
+            .section_last .content .logo-image {
+            
+            }
+            .section_last .content .logo-image img.log-img {
+            width: 150px;
+            height: 280px;
+            }
+            .section_last .content .adress {
+           
+            }
+            .section_last .content .adress p {
+            color: white;
+            font-size: 18px;
+            }
+            .section_last .content .adress p.title {
+            font-size: 20px;
+            font-weight: 600;
+            text-align: right;
+            font-size: 18px;
+            }
+            .section_last .content .adress .employee_us {
+                margin-top: 50px;
+            }
+            .section_last .content .adress .employee-link {
+            text-decoration: none;
+            text-align: justify ;
+            color: black;
+            font-size: 22px;
+            font-weight: bold;
+            background-color: #ddd;
+            padding: 10px;
+            border-radius:  5px;
+            transition: 0.5s;
+            }
+            .section_last .content .adress .employee-link:hover {
+            color: white;
+            background-color: black;
+            padding: 10px;
+            border-radius:  5px;
+            }
+            .section_last .content .social-media-icon {
+            
+            }
+            .section_last .content .social-media-icon p.title {
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            }
+            .section_last .content .social-media-icon p {
+            
+            }
+            .section_last .content .social-media-icon p img {
+            /* width: 50px;
+            height: 50px; */
+            width: 18%;
+            vertical-align: middle;
+            filter: grayscale(100%);
+            transition: 0.5s;
+            }
+            .section_last .content .social-media-icon p img:hover {
+                filter: grayscale(0);
+            }
+            @media (max-width: 767px) {
+            .section_last .content .social-media-icon p img  {
+            margin-right: 0;
+            }
+            .section_last .content .social-media-icon p img:hover {
+                
+            } 
+            }
+            .section_last .content .social-media-icon p a {
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+            }
+            .section_last .content .social-media-icon p a:hover {
+            text-decoration: underline;
+            }
+            .section_last .content .location-map {
+            /* background-color: #10cab7; */
+            }
+            .section_last .content .location-map p {
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            }
+            .section_last .content .location-map iframe {
+            height: 260px !important;
+            /* width: 300px !important; */
+            max-width: 100% !important;
+            }
+            @media (max-width: 767px) {
+            .section_last .content .location-map iframe{
+            /* display: none;; */
+            max-width: 100%;
+            }
+            }
+            .section_last .Vertical-separator {
+            color: white;
+            height: 2px;
+            background-color: white;
+            padding: 20px 0;
+            width: 2px;
+            display: inline-block;
+            position: relative;
+            top: 12px;
+            margin-left: 5px;
+            margin-right: 5px;
+            }
+            /* End Section_last */
+            
+        </style>
+    </head>
+    <body style="direction: rtl; text-align: right;">
+        <!-- Start My Modified -->
+        <div class="section_hello">
+            <img src="/Images/836/interface/Section_Hello_02.jpg" alt="Section Hello">
+        </div>
+        <!-- Start Section 01 -->
+        <div class="section_01">
+            <div class="container">
+            <!-- Start Carousel -->
+                <div id="demo" class=" slider carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                    </div>
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                        <!-- <img src="la.jpg" alt="Los Angeles" class="d-block w-100"> -->
+                            <a href="https://vpbkc.kau.edu.sa/Pages-VPBKC-NEWS-00321250922-AR.aspx">
+                                <img style="width:100%;" alt="وكالة الجامعة للأعمال والابداع المعرفي" src="/images/836/News_VPBKC/SEP2022/National_Day_92.jpg"></a>
+                            <div class="carousel-caption">
+                                <p class="SliderTitle">
+                                وكالة الجامعة للأعمال والإبداع المعرفي تحتفل بذكرى اليوم الوطني الـ92 لبلادنا الغالية
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <!-- <img src="la.jpg" alt="Los Angeles" class="d-block w-100"> -->
+                            <a href="https://vpbkc.kau.edu.sa/Pages-VPBKC-NEWS-0216280322-AR.aspx"><img style="width:100%;" alt="وكالة الجامعة للأعمال والابداع المعرفي" src="/images/836/News890.jpeg"></a>
+                            <div class="carousel-caption">
+                                <p class="SliderTitle">
+                                وكالة الجامعة للأعمال والإبداع المعرفي تحصل على شهادة الآيزو لنظام الجودة
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <!-- <img src="chicago.jpg" alt="Chicago" class="d-block w-100"> -->
+                            <a href="https://vpbkc.kau.edu.sa/Pages-VPBKC-NEWS-2402220313-AR.aspx"><img style="width:100%;" alt="وكالة الجامعة للأعمال والابداع المعرفي" src="/images/836/News889.jpeg"></a>
+                            <div class="carousel-caption">
+                                <p class="SliderTitle">
+                                تدشين برنامج صناعة الممارس المحترف المقدم من مركز الممارس المحترف بالجامعة لمنسوبي أمانة العاصمة المقدسة
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <!-- <img src="ny.jpg" alt="New York" class="d-block w-100"> -->
+                            <a href="https://vpbkc.kau.edu.sa/Pages-VPBKC-NEWS-1202220204-AR.aspx"><img style="width:100%;" alt="وكالة الجامعة للأعمال والابداع المعرفي" src="/images/836/News888.jpeg"></a>
+                            <div class="carousel-caption">
+                                <p class="SliderTitle">
+                                اتفاقية تعاون بين بيت خبرة العلوم الطبية التطبيقية ومركز الممارس المحترف
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Start Addition New -->
+                        <div class="carousel-item">
+                            <!-- <img src="chicago.jpg" alt="Chicago" class="d-block w-100"> -->
+                            <a href="https://vpbkc.kau.edu.sa/Pages-VPBKC-NEWS-2402220313-AR.aspx"><img style="width:100%;" alt="وكالة الجامعة للأعمال والابداع المعرفي" src="/images/836/News887.jpeg"></a>
+                            <div class="carousel-caption">
+                                <p class="SliderTitle">
+                                عمادة خدمة المجتمع والتعليم المستمر تحتفي بخرّيجي البرامج التأهيلية السياحية
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <!-- <img src="chicago.jpg" alt="Chicago" class="d-block w-100"> -->
+                            <a href="https://vpbkc.kau.edu.sa/Pages-VPBKC-NEWS-2402220313-AR.aspx"><img style="width:100%;" alt="وكالة الجامعة للأعمال والابداع المعرفي" src="/images/836/News886.jpg"></a>
+                            <div class="carousel-caption">
+                                <p class="SliderTitle">
+                                اختتام ورش عمل " مشاركة الكليات في تنفيذ مبادرات خطة الاستدامة المالية
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <!-- <img src="chicago.jpg" alt="Chicago" class="d-block w-100"> -->
+                            <a href="https://vpbkc.kau.edu.sa/Pages-VPBKC-NEWS-2402220313-AR.aspx"><img style="width:100%;" alt="وكالة الجامعة للأعمال والابداع المعرفي" src="/images/836/News878.jpg"></a>
+                            <div class="carousel-caption">
+                                <p class="SliderTitle">
+                                قطاعات وكالة الجامعة للأعمال والإبداع المعرفي في أسبوع
+                                </p>
+                            </div>
+                        </div>
+                    <!-- End Addtion New -->
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            <!-- End Carousel -->
+            <!-- Start Abstract -->
+                <div class="president-word">
+                    <div class="title">
+                        <h4>كلمة نائب رئيس الجامعة
+                            <p> للأعمال والإبداع المعرفي</p>
+                        </h4>
+                    </div>
+                    <div class="info">
+                        <p>
+                        تواصل جامعة الملك عبدالعزيز جهودها الحثيثة لتوفير بيئة علمية وعملية متكاملة، تسعى من خلالها لبناء مجتمع المعرفة وتسخير كل الإمكانات لدعم مسيرة البحث والتطوير والتفوق والإبداع العلمي والعملي، ومكتب نائب رئيس الجامعة للأعمال والإبداع المعرفي إحدى مكاتب نواب رئيس الجامعة  التي تكرس كل طاقاتها وإمكاناتها لتنفيذ هذه الرؤية التي وضعتها الجامعة ضمن أحد أهم عناصر خططها الاستراتيجية. إن صدور....
+                            <a href="https://vpbkc.kau.edu.sa/Pages-VPBKC-VDWord-AR.aspx"> للمزيد</a>
+                        </p>
+                        <img src="/Images/836/interface/VPBKC_Tawfeeq.jpg" alt="Dr.Twofage alkeyal Picture">
+                    </div>
+                </div>
+            <!-- End Abstract -->
+            </div>
+        </div>
+        <!-- End Section 01 -->
+        <!-- Start separator -->
+        <div class="separator-block">
+            <div class="container">
+                <h4 class="separator-title">
+                    <span class="text">   </span>
+                </h4>
+            </div>
+        </div>
+        <!-- End separator -->
+        <!-- Start Section 02 -->
+        <div class="section_02">
+            <div class="container">
+                <div class="strategic">
+                    <div class="strategic-box vision">
+                        <div class="title">
+                            <h5>الرؤية</h5>
+                        </div>
+                        <p>الريادة في تطوير الاعمال وتنمية الابداع المعرفي</p>
+                    </div>
+                    <div class="strategic-box message">
+                        <div class="title">
+                            <h5>الرسالة</h5>
+                        </div>
+                        <p>الاسهام في بناء مجتمع الاعمال والمعرفة بجامعة الملك عبد العزيز من خلال استثمار الطاقات الابداعية وتطوير الإمكانات وإقامة الشركات </p>
+                    </div>
+                    <div class="strategic-box goal">
+                        <div class="title">
+                            <h5>الأهداف</h5>
+                        </div>
+                        <p>تحول الجامعة إلى جامعة بحثية متقدمة تعتمد على المعرفة والأساليب التقنية المتطورة
+                        </p>
+                        <a href="https://vpbkc.kau.edu.sa/Pages-VPBKC-Strategic-AR.aspx"> للمزيد</a>
+                    </div>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/s99Od-xZQp8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+           </div>
+        </div>
+        <!-- End Section 02 -->
+        <!-- Start separator -->
+        <div class="separator-block">
+            <div class="container">
+                <h4 class="separator-title">
+                    <span class="text"> الأحداث والفعاليات  </span>
+                </h4>
+            </div>
+        </div>
+        <!-- End separator -->
+        <!-- Start Section_03 -->
+        <!-- Strat Section Events  -->
+        <div class="section_03">
+            <div class="section_events">
+                <div class="container">
+                    <div class="events-content">
+                        <div class="event">
+                            <div class="images">
+                            <img src="/images/836/News_VPBKC/MAR2021/Event180321.jpeg" alt="Event Image">
+                            </div>
+                            <div class="text">
+                            <p>برعاية معالي رئيس الجامعة وكيل الجامعة للأعمال والإبداع المعرفي يفتتح ملتقى الاستدامة المالية الثاني</p>
+                            <a href="https://vpbkc.kau.edu.sa/Pages-VPBKC-NEWS-1503211156.aspx">إقراء المزيد</a>
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="images">
+                            <!-- <img src="https://vpbkc.kau.edu.sa/Images/836/News_VPBKC/DEC2020/Event-061220-2.jpg" alt="Event Image" /> -->
+                            <img src="/Images/836/News_VPBKC/SEP2022/National_Day_92.jpg" style="width:350px; height: 254px" alt="Event Image">
+                            </div>
+                            <div class="text">
+                            <!-- <p>سعادة وكيل الجامعة للأعمال والإبداع المعرفي يدشّن النسخة التجريبية من موقع الوكالة الإلكتروني</p>
+                                                <a href="https://vpbkc.kau.edu.sa/Pages-VPBKC-NEWS-1911200830.aspx">إقراءالمزيد</a> -->
+                            <p>احتفت الوكالة بذكرى اليوم الوطني الـ 92 لبلادنا، في أجواء عمتها الفرحة والبهجة</p>
+                            <a href="https://vpbkc.kau.edu.sa/Pages-VPBKC-NEWS-00321250922-AR.aspx">إقراء المزيد</a>
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="images">
+                            <img src="/images/836/News_VPBKC/DEC2020/Event-061220-3.jpg" alt="Event Image">
+                            </div>
+                            <div class="text">
+                            <p>معالي رئيس الجامعة يرعى ورشة عمل "تطوير بيئة الاستثمار في جامعة الملك عبدالعزيز</p>
+                            <a href="https://vpbkc.kau.edu.sa/Pages-VPBKC-NEWS-1410201859.aspx">إقراء المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Section Events  -->
+        </div>
+        <!-- End Section_03 -->
+        <!-- Start separator -->
+        <div class="separator-block">
+            <div class="container">
+                <h4 class="separator-title">
+                    <span class="text">القطاعات التابعة  </span>
+                </h4>
+            </div>
+        </div>
+        <!-- End separator -->
+        <!-- Start Scetion 04 -->
+        <div class="section_04">
+            <div class="container">
+                <div class="shuffle">
+                    <div class="sector">
+                        <p>إدارة الاستثمار</p>
+                        <a href="https://vpbkc-im.kau.edu.sa/Default-110-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>معهد البحوث و الاستشارات</p>
+                        <a href="https://raci.kau.edu.sa/Default-195-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>الإدارة العامة للموارد الذاتية</p>
+                        <a href="https://self-resources.kau.edu.sa/Default-496-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>الوقف العلمي بجامعة الملك عبدالعزيز</p>
+                        <a href="https://waqf.kau.edu.sa/Default-808-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>الإدارة العامة للمسؤولية الاجتماعية</p>
+                        <a href="https://usr.kau.edu.sa/Default-912-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>شركة وادي جدة</p>
+                        <a href="https://wadi-jeddah.kau.edu.sa/Default-351888-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>إدارة العقود والمشتريات</p>
+                        <a href="https://procurement.kau.edu.sa/Default-466-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>الإدارة المالية</p>
+                        <a href="https://financial-administration.kau.edu.sa/Default-467-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>إدارة المستودعات</p>
+                        <a href="https://warehouse.kau.edu.sa/Default-468-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>إدارة مراقبة المخزون</p>
+                        <a href="https://inventory-control.kau.edu.sa/Default-487-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>الإدارة العامة للمشاريع</p>
+                        <a href="https://projects-management.kau.edu.sa/Default-105-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>الادارة العامة للدراسات والتصاميم</p>
+                        <a href="https://studiesanddesign.kau.edu.sa/Default-157-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p> قطاع التشغيل والصيانة</p>
+                        <a href="https://vpp-avp.kau.edu.sa/Default-228-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>الإدارة العامة للعقود الهندسية</p>
+                        <a href="https://ecm.kau.edu.sa/Default-884-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>مكتب تحقيق الاستدامة المالية</p>
+                        <a href="https://president-office-fso.kau.edu.sa/Default-101889-ar" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>مركز التواصل و المعلومات </p>
+                        <a href="https://cic.kau.edu.sa/Default-777-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>مركز الخدمات الطبية الجامعي</p>
+                        <a href="https://umsc.kau.edu.sa/Default-407-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>مركز الوثائق و المحفوظات</p>
+                        <a href="https://adc.kau.edu.sa/Default-219-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>إدارة العامة لحوكمة قطاع الأعمال والأستثمار</p>
+                        <a href="https://cmsplus.kau.edu.sa/Admin/AdminContent.aspx#" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>الإدارة العامة للتسويق والشراكات</p>
+                        <a href="https://cmsplus.kau.edu.sa/Admin/AdminContent.aspx#" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>مركز الإبداع  وريادة الأعمال</p>
+                        <a href="https://cie.kau.edu.sa/Default-216-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>مركز الوسائط البحرية</p>
+                        <a href="https://cmsplus.kau.edu.sa/Admin/AdminContent.aspx#" title="رابط الموقع">
+                            <img src="/Images/836/interface//website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>الإدارة العامة لخدمات الأمن </p>
+                        <a href="https://cmsplus.kau.edu.sa/Admin/AdminContent.aspx#" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                            <p>مركز الممارس المحترف</p>
+                            <a href="https://ppc.kau.edu.sa/Default-428-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                            </a>
+                    </div>
+                    <div class="sector">
+                        <p>مركز التدريب وتأهيل الكوادر</p>
+                        <a href="https://ctqc.kau.edu.sa/Default-470-AR" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>إدارة الإسكان</p>
+                        <a href="https://housing.kau.edu.sa/Default-203-ar" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>إدارة الدراسات والمبادرات</p>
+                        <a href="https://cmsplus.kau.edu.sa/Admin/AdminContent.aspx#" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                    <div class="sector">
+                        <p>فرع رابغ</p>
+                        <a href="https://cmsplus.kau.edu.sa/Admin/AdminContent.aspx#" title="رابط الموقع">
+                            <img src="/Images/836/interface/website-icon_01.png" alt="Website Icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- End Scetion 04 -->
+            <!-- Start separator -->
+        <div class="separator-block">
+            <div class="container">
+                <h4 class="separator-title">
+                    <span class="text"></span>
+                </h4>
+            </div>
+        </div>
+        <!-- End separator -->
+        <!-- Strat Section_Last -->
+        <div class="section_last">
+            <div class="content">
+                <div class="box logo-image">
+                    <img class="log-img" src="/Images/836/interface/Logo-footer.png" alt="Logo Image">
+                </div>
+                <div class="box  adress">
+                    <p class="title">
+                    مكتب نائب رئيس الجامعة للأعمال والإبداع المعرفي :
+                    </p>
+                    <p class="tel">
+                    <span>الهاتف :</span> 966126952041+
+                    </p>
+                    <p class="fax">
+                    <span>الفاكس :</span> 966126952774+
+                    </p>
+                    <p class="box-post">
+                    ص.ب: 80200 جدة: 21589
+                    </p>
+                    <p class="mail">
+                    البريدالرسمي: vpbkc@kau.edu.sa
+                    </p>
+                    <p class="employee_us">
+                        <a class="employee-link" href="https://cmsplus.kau.edu.sa/Admin/AdminContent.aspx#">منسوبي مكتب نائب الرئيس</a>
+                    </p>
+                </div>
+                <div class="box  social-media-icon">
+                    <p class="title"> تابعنا على : </p>
+                    <p class="twitter-icon">
+                        <img src="/Images/836/interface/twitter.png" alt="Twitter Icon">
+                        <span class="Vertical-separator"></span>
+                        <a href="https://twitter.com/VPBKC">VPBKC@</a>
+                    </p>
+                    <p class="youtube-icon">
+                        <img src="/Images/836/interface/youtube.png" alt="Youtube Icon">
+                        <span class="Vertical-separator"></span>
+                        <a href="https://www.youtube.com/@user-rx6oz5sf8u/about">VPBKC@</a>
+                    </p>
+                    <p class="instagram-icon">
+                        <img src="/Images/836/interface/instagram.png" alt="instagram Icon">
+                        <span class="Vertical-separator"></span>
+                        <a href="https://www.instagram.com/vpbkc/">VPBKC@</a>
+                    </p>
+                    <p class="snapchat-icon">
+                        <img src="/Images/836/interface/snapchat.png" alt="snapchat Icon">
+                        <span class="Vertical-separator"></span>
+                        <a href="https://www.snapchat.com/add/vpbkc">VPBKC@</a>
+                    </p>
+                </div>
+                <div class="box location-map">
+                    <p>الموقع الجغرافي :</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14849.479557505209!2d39.2432801!3d21.493227!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79fb4c578043d38b!2z2YjZg9in2YTYqSDYp9mE2KzYp9mF2LnYqSDZhNmE2KfYudmF2KfZhCDZiNin2YTYp9io2K_Yp9i5INin2YTZhdi52LHZgdmK!5e0!3m2!1sar!2ssa!4v1593825148300!5m2!1sar!2ssa" width="600" height="450" frameborder="0" style="border:0;width: 400px;height: 400px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- End Section_Last -->
+        <!-- End My Modified -->
+        <!-- Start Old Code -->
+        <!--
+         *************************************************************************
+         *************************************************************************
+         *************************************************************************
+         ***********************       (Footer)        ************************
+         *************************************************************************
+         *************************************************************************
+         *************************************************************************
+    -->
+        <div class="second-page">
+            <a  style="text-align:center;display:inline-block" href="index.html">Next Page</a>
+        </div>
+    </body>
+</html>
